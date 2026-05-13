@@ -182,25 +182,4 @@ const PROJECTS = [
   },
 ];
 
-const TESTIMONIALS = [
-  {
-    quote: "She showed up early to prep, simply because she wanted to make sure everything was perfect. She's exactly the kind of person you want on your team.",
-    name: "Mayuri Reddy",
-    role: "Community & Events Leader · Deep Tech Momentum",
-    variant: 'paper',
-  },
-  {
-    quote: "Her work results exceeded our requirements vastly at all times. An extremely pronounced entrepreneurial way of thinking, even under the most challenging conditions.",
-    name: "Amazon Global Selling Team",
-    role: "Reference letter",
-    variant: 'dark',
-  },
-  {
-    quote: "She achieved extremely good results within a very short space of time. Trustworthiness and absolute reliability characterised her work ethic at all times.",
-    name: "Idealo Internet GmbH",
-    role: "Reference letter",
-    variant: 'orange',
-  },
-];
-
-window.PORTFOLIO_DATA = { ABOUT_CARDS, EXPERIENCE, PROJECTS, TESTIMONIALS };
+window.PORTFOLIO_DATA = { ABOUT_CARDS, EXPERIENCE, PROJECTS };
