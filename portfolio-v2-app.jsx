@@ -329,34 +329,6 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="test-section">
-        <h2 className="test-heading-orange">WORDS FROM TEAMS</h2>
-        <p className="test-heading-ink">I'VE WORKED WITH</p>
-        <div className="test-grid">
-          <QuoteCard
-            bg="var(--cream)" ink border
-            body={<>What distinguished her was her strong execution mindset combined with <mark style={{ color: "var(--orange-bold)" }}>deep understanding of many state-of-the-art AI tools</mark> which she proactively used for all relevant tasks.</>}
-            author="Katja Elkhanova" role="CEO Scenarium AI GmbH"
-          />
-          <QuoteCard
-            bg="var(--ink)"
-            body={<>Her work results exceeded our requirements vastly at all times. <mark style={{ color: "var(--orange-bold)" }}>An extremely pronounced entrepreneurial way of thinking</mark>, even under the most challenging conditions.</>}
-            author="" role="Amazon Global Selling Team"
-          />
-          <QuoteCard
-            bg="var(--orange-bold)"
-            body={<>She achieved extremely good results within a very short space of time. <mark style={{ color: "var(--ink)" }}>Trustworthiness and absolute reliability</mark> characterized her work ethic at all times.</>}
-            author="" role="Idealo Internet GmbH"
-          />
-          <QuoteCard
-            bg="var(--tab-projects)" ink
-            body={<><strong>She showed up early to prep, simply because she wanted to make sure everything was perfect.</strong> She's exactly the kind of person you want on your team.</>}
-            author="Mayuri Reddy" role="Community & Events Leader · Deep Tech Momentum"
-          />
-        </div>
-      </section>
-
       {/* Connect */}
       <section className="connect-section">
         <h2 className="connect-heading">CONNECT</h2>
